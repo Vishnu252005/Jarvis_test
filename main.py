@@ -29,15 +29,15 @@ obj = JarvisAssistant()
 
 GREETINGS = ["hi jarvis", "jarvis", "wake up jarvis", "you there jarvis", "time to work jarvis", "hey jarvis",
              "ok jarvis", "are you there"]
-GREETINGS_RES = ["always there for you wasii", "i am ready wasii",
-                 "your wish my command", "how can i help you wasii?", "i am online and ready wasii"]
+GREETINGS_RES = ["always there for you Vishnu", "i am ready Vishnu",
+                 "your wish my command", "how can i help you Vishnu?", "i am online and ready Vishnu"]
 
 EMAIL_DIC = {
-    'myself': 'support@hackerwasii.com',
-    'my official email': 'support@hackerwasii.com',
-    'my second email': 'support@hackerwasii.com',
-    'my official mail': 'support@hackerwasii.com',
-    'my second mail': 'support@hackerwasii.com'
+    'myself': 'vishnu1252005@gmail.com',
+    'my official email': 'vishnu1252005@gmail.com',
+    'my second email': 'vishnu1252005@gmail.com',
+    'my official mail': 'vishnu1252005@gmail.com',
+    'my second mail': 'vishnu1252005@gmail.com'
 }
 
 CALENDAR_STRS = ["what do i have", "do i have plans", "am i busy"]
@@ -63,12 +63,12 @@ def computational_intelligence(question):
         return None
     
 def startup():
-    speak("Initializing Jarvis, wait a moment wasii")
+    speak("Initializing Jarvis, wait a moment Vishnu")
     speak("Starting all systems applications")
     speak("Installing and checking all drivers")
     speak("Caliberating and examining all the core processors")
     speak("Checking the internet connection")
-    speak("Wait a moment wasii")
+    speak("Wait a moment Vishnu")
     speak("All drivers are up and running")
     speak("All systems have been activated")
     speak("Now I am online")
@@ -81,7 +81,7 @@ def startup():
         speak("Good evening")
     c_time = obj.tell_time()
     speak(f"Currently it is {c_time}")
-    speak("I am Jarvis. Online and ready sir wasii. Please tell me how may I help you")
+    speak("I am Jarvis. Online and ready sir Vishnu. Please tell me how may I help you")
     
 
 
